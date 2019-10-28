@@ -1,93 +1,65 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" href="style.css" />
-    <title>Nikos Kargas</title>
-  </head>
-  <body>
-    <div id="tlayout">
-        <div id="layout-menu">
-          <div class="menu-category">Nikos Kargas</div>
-          <div class="menu-item">
-            <a href="index.html" class="current">About</a>
-          </div>
-          <div class="menu-item">
-            <a href="Files/cv.pdf" class="current">CV</a>
-          </div>
-		  <div class="menu-item">
-            <a href="courses.html" class="current">Courses</a>
-          </div>
-          <div class="menu-category">Research</div>
-          <div class="menu-item">
-            <a href="publications.html" class="current">
-            Publications</a>
-          </div>
-          <div class="menu-category">Software</div>
-          <div class="menu-item">
-            <a href="projects.html" class="current">Projects</a>
-          </div>
-        </div>
 
-        <div id="layout-content">
-          <div id="toptitle">
-            <h1>Projects</h1>
-          </div>
-          <h2>Master Thesis 
-          <a name="MasterThesis"></a></h2>
-          <h3>SDR Readers for Gen2 RFID and Backscatter Sensor
-          Networks</h3>
-          <p>A SDR based RFID reader has been developed using USRP
-          and GNU Radio. The reader is able to identify commercial
-          Gen2 RFID Tags with FM0 line coding and 40kHz data rate
-          and extract their EPC message. It has been tested with
-          USRPN200 and a single front-end card RFX900. The code is
-          available at 
-          <a href="https://github.com/nikosl21/Gen2-UHF-RFID-Reader">
-          github</a>. A receiver for a backscatter sensor network has also been developed. The receiver is capable of processing multiple tags simultaneously in real time and report their measurements.</p>
-          <p>
-            <img src="Pics/rfid.png" width="650px" />
-          </p>
-          <h2>Undergraduate Thesis</h2>
-          <h3>Robust Localization for the RoboCup Standard Platform
-          League</h3>
-          <p>As part of my Diploma Thesis, a new approach was
-          developed for localization in our RoboCup team Kouretes
-          based on an Extended Kalman Filter (EKF). Our
-          localization module integrates odometry and observations
-          information, estimating the pose of the robot at any
-          time. The initial pose of the robot in the field is
-          approximately known, as it is limited to a small number
-          of candidate field areas. Therefore, the robot must
-          disambiguate its hypotheses about these initial poses and
-          track afterwards its pose maintaining a reliable belief
-          using all the available information. Github repository: <a href="https://github.com/kouretes/Monas">Monas</a>.</p>
-          <p>
-            <img src="Pics/localization.png" width="580px"
-            height="auto" />
-          </p>
-          <p>
-            <video width="auto" height="160" controls="">
-            <source src="Videos/Initialpositions.mp4"
-            type="video/mp4" />
-            <source src="Videos/Initialpositions.webm"
-            type="video/webm" />Your browser does not support
-            video</video>
-            <video width="auto" height="160" controls="">
-            <source src="Videos/singlerobot.mp4"
-            type="video/mp4" />
-            <source src="Videos/singlerobot.webm"
-            type="video/webm" />Your browser does not support
-            video</video>
-          </p>
-        </div>
+<head>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="./Fonts/fa/css/all.css">
+  <link rel="stylesheet" href="./Fonts/ac/css/academicons.css">
+  <title>Nikos Kargas</title>
+</head>
+
+<body>
+  <div id="tlayout">
+    <div id="layout-menu">
+      <div class="menu-item">
+        <a href="index.html" class="current">Home</a>
+      </div>
+      <div class="menu-item">
+        <a href="Files/cv.pdf" class="current">CV</a>
+      </div>
+      <div class="menu-item">
+        <a href="publications.html" class="current">
+          Publications</a>
+      </div>
+      <div class="menu-item">
+        <a href="projects.html" class="current">Projects</a>
+      </div>
     </div>
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-70970420-1', 'auto');
-      ga('send', 'pageview');
-    </script>
-  </body>
+
+    <div id="layout-content">
+      <div id="toptitle">
+        <h1><strong>Past Projects</strong></h1>
+      </div>
+      <h2><strong>Master Thesis</strong><a name="MasterThesis"></a></h2>
+      <h3>SDR Readers for Gen2 RFID and Backscatter Sensor Networks.</h3>
+      <p>
+        SDR based RFID reader using USRP and GNU Radio. The reader is able to identify commercial Gen2 RFID Tags with FM0 line coding and 40kHz data rate and extract their EPC message. The code is available at
+        <a href="https://github.com/nikosl21/Gen2-UHF-RFID-Reader"> GitHub</a>.
+      </p>
+      <p>
+        <img src="Pics/rfid.png" width="500px" height="auto" />
+      </p>
+      <h2><strong>Undergraduate Thesis</strong></h2>
+      <h3>Robust Localization for the RoboCup Standard Platform League.</h3>
+      <p>
+        Extended Kalman Filter (EKF) based localization for the RoboCup Standard Platform League. Our localization module integrates odometry and observations information, estimating the pose of the robot at any time. The code is available at
+        <a href="https://github.com/kouretes/Monas"> GitHub</a>.
+      </p>
+      <p>
+        <img src="Pics/localization.png" width="500px" height="auto" />
+      </p>
+      <p>
+        <video width="250" height="auto" controls="">
+          <source src="Videos/Initialpositions.mp4" type="video/mp4" />
+          <source src="Videos/Initialpositions.webm" type="video/webm" />Your browser does not support video
+        </video>
+        <video width="250" height="auto" controls="">
+          <source src="Videos/singlerobot.mp4" type="video/mp4" />
+          <source src="Videos/singlerobot.webm" type="video/webm" />Your browser does not support video
+        </video>
+      </p>
+    </div>
+  </div>
+</body>
+
 </html>

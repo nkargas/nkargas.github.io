@@ -2,33 +2,36 @@ body {
 color:#303030;
 background: white;
 font-family: Georgia, serif;
+font-size: 16px;
+}
+
+i.fab {
+  color: #224b8d;
 }
 
 li {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 #tlayout {
 margin-top:5px;
 margin-left:5px;
 display: table;
-width: 100%;
+width: 60%;
 }
 
 #layout-menu {
-background: #f4f4f4;
-padding-top: 5px;
-border: 1px solid #DDD;
+padding-top: 20px;
 padding-left: 5px;
 padding-right: 5px;
-font-size: 17px;
+font-size: 20px;
 text-align: left;
 display: table-cell;
 width:150px;
 }
 
 #layout-content {
-padding-left: 15px;
+padding-left: 50px;
 padding-right: 15px;
 text-align: left;
 display: table-cell;
@@ -53,22 +56,19 @@ color: #224b8d;
 text-decoration: none;
 }
 
-a:hover {
-border-bottom: 1px gray dotted;
-}
 
 #layout-menu a.current:link, #layout-menu a.current:visited {
-color:#3675d9;
-border-bottom: 1px gray solid;
-}
-
-#layout-menu a:link, #layout-menu a:visited, #layout-menu a:hover {
-color: #3675d9;
+color:#000000;
+font-weight: bold;
 text-decoration: none;
 }
 
+#layout-menu a:link, #layout-menu a:visited, #layout-menu a:hover {
+color: #000000;
+}
+
 #layout-menu a.current:hover {
-color: #00008B;
+color: #224b8d;
 }
 
 div.menu-category {
@@ -85,7 +85,7 @@ text-indent: -16px;
 }
 
 div.menu-item:hover {
-background-color:#d7d7d7;
+ text-decoration: none;
 }
 
 div#toptitle {
@@ -359,7 +359,7 @@ border: none;
 overflow:auto;
 }
 
-div.imgtable img{ 
+div.imgtable img{
 margin-right: 10px;
 float:left;
 }
