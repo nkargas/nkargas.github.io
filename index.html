@@ -10,23 +10,13 @@
 
 <body>
   <div id="tlayout">
-    <div id="layout-menu">
-      <div class="menu-item">
-        <a href="index.html" class="current">Home</a>
-      </div>
-      <div class="menu-item">
-        <a href="publications.html" class="current">
-          Publications</a>
-      </div>
-    </div>
     <div id="layout-content">
-
       <div id="toptitle">
         <h1><strong>Nikolaos (Nikos) Kargas</strong></h1>
       </div>
       <div id='info'>
         <div class="imgtable">
-          <img src="Pics/pic.png" width="145px" height="auto" />
+          <img src="Pics/pic.png" width=145 height="auto" alt="pic"/>
         </div>
         <div id='contact'>Ph.D. Student - Research Assistant
           <br />
@@ -44,16 +34,15 @@
           <br />
         </div>
       </div>
-
       <h2><strong>About me</strong></h2>
       <p>
         I am a Ph.D. student in the
         <a href="http://www.ece.umn.edu/">Department of Electrical and Computer Engineering</a>, at the
         <a href="http://twin-cities.umn.edu/">University of Minnesota</a> advised by Professor
-        <a href="http://www.ece.umn.edu/~nikos/">Nikolaos D. Sidiropoulos</a>. My research interests are in the areas of <b>Machine learning</b>, <b>Statistics</b> and <b>(non-convex) Optimization</b>.
+        <a href="http://www.ece.umn.edu/~nikos/">Nikolaos D. Sidiropoulos</a>. My research interests are in the areas of <b>Machine learning</b>, <b>Statistics</b> and <b>Optimization</b>.
       </p>
+        A major focus of my work is on <b>tensor methods</b> for machine learning. I am interested in developing <b>scalable</b>, <b>efficient</b> and <b>interpretable</b> algorithms for <b>high-dimensional distribution</b> and <b>general nonlinear function learning</b>. Recent research topics include non-parametric density estimation, learning probability models from limited and partial observed data, data completion/regression and spatio-temporal data analysis.
       <p>
-        A major focus of my work has been on <b>tensor methods</b> for machine learning with applications in <b>non-parametric density estimation</b> and <b>nonlinear function approximation</b>.
       </p>
       <p>
         I received the Diploma and MSc degrees from the <a href="https://www.ece.tuc.gr/index.php?id=4481"> School of Electronic & Computer Engineering</a> at the <a href="https://www.tuc.gr/index.php?id=5397">Technical University of Crete</a>.
@@ -61,58 +50,176 @@
       </p>
       <h2><strong>News</strong></h2>
       <ul>
-	    <li>
-           <strong>9/2020</strong>
-           <p>
-             I have joined <a href='https://www.iqvia.com/'>IQVIA</a> as a Machine Learning Research Intern. 
-           </p>
+        <li>
+          <strong>9/2020</strong>: I have joined <a href='https://www.iqvia.com/'>IQVIA</a> as a Machine Learning Research Intern.
         </li>
         <li>
-           <strong>2/2020</strong>
-           <p>
-             Attended AAAI 2020 and presented our paper "Nonlinear System Identification via Tensor Completion". [<font color="red">Spotlight</font>]
-           </p>
+          <strong>2/2020</strong>: Attended AAAI 2020 and presented our paper "Nonlinear System Identification via Tensor Completion". [<font color="red">Spotlight</font>]
         </li>
         <li>
-           <strong>11/2019</strong>
-           <p>Our paper "Nonlinear System Identification via Tensor Completion" was accepted at <b>AAAI 2020</b>! <a href="Files/CSID.pdf">[slides]</a></p>
+          <strong>11/2019</strong>: Our paper "Nonlinear System Identification via Tensor Completion" was accepted at <b>AAAI 2020</b>! <a href="Files/CSID.pdf">[slides]</a>
         </li>
         <li>
-           <strong>9/2019</strong>
-           <p>Our paper "Crowdsourcing via Pairwise Co-occurrences: Identifiability and Algorithms" was accepted at <b>NeurIPS 2019</b>.
+          <strong>9/2019</strong>: Our paper "Crowdsourcing via Pairwise Co-occurrences: Identifiability and Algorithms" was accepted at <b>NeurIPS 2019</b>.
         </li>
         <li>
-           <strong>7/2019</strong>
-           <p>Our paper "Low-Rank Tensor Models for Improved Multi-Dimensional MRI: Application to Dynamic Cardiac T<sub>1</sub>  Mapping" was accepted at <b>IEEE Transactions on Computational Imaging</b>.
-           </p>
-        </li>
-        <li>
-           <strong>6/2019</strong>
-           <p>Attended IEEE DSW 2019. We received the <font color="red">best student paper award</font> for the paper "Statistical Learning using Hierarchical Modeling of Probability Tensors"!</p>
-        </li>
-        <li>
-           <strong>4/2019</strong>
-           <p>Our paper "Statistical Learning using Hierarchical Modeling of Probability Tensors" was accepted at <b>IEEE DSW 2019</b>. <a href="Files/DSW.pdf">[slides]</a></p>
-        </li>
-        <li>
-           <strong>4/2019</strong>
-           <p>
-             Attended AISTATS 2019 and presented our paper "Learning Mixtures of Smooth Product Distributions: Identifiability and Algorithm".
-           </p>
-        </li>
-        <li>
-           <strong>12/2018</strong>
-           <p>
-             Our paper "Learning Mixtures of Smooth Product Distributions: Identifiability and Algorithm" was accepted at <b>AISTATS 2019</b>!
-           </p>
-        </li>
-        <li>
-           <strong>6/2018</strong>
-           <p>Our paper "Tensors, Learning, and `Kolmogorov Extension' for Finite-alphabet Random Vectors" was accepted at <b>IEEE Transactions on Signal Processing</b>. <a href="Files/TSP.pdf">[slides]</a></p>
+          <strong>7/2019</strong>: Our paper "Low-Rank Tensor Models for Improved Multi-Dimensional MRI: Application to Dynamic Cardiac T<sub>1</sub>  Mapping" was accepted at <b>IEEE Transactions on Computational Imaging</b>.
         </li>
       </ul>
+      <h2><strong>Research</strong></h2>
+
+      <div id= 'publication'>
+        <img src="Pics/asilomar2020.png" alt="asilomar2020" width=190 height="auto">
+        <a href="index.html"><b>Supervised Learning via Ensemble Tensor Completion</b></a>
+        <br />
+        <strong> N. Kargas</strong> and N. D. Sidiropoulos
+        <br />
+        <em>Asilomar Conference on Signals, Systems and Computers (ASILOMAR), 2020</em>
+        <br />
+        <br />
+        Our recent work has formulated the  problem of learning a general nonlinear multivariate function of discrete inputs, as a tensor completion problem with smooth latent factors. In this work, we utilize two ensemble learning techniques to enhance its prediction accuracy.
+      </div>
+
+      <div id= 'publication'>
+        <img src="Pics/aaai2020.png" alt="aaai2020" width=190 height="auto">
+        <a href="https://aaai.org/ojs/index.php/AAAI/article/view/5868"><b>Nonlinear System Identification via Tensor Completion</b></a>
+        <br />
+        <strong>N. Kargas</strong> and N. D. Sidiropoulos
+        <br />
+        <em>AAAI Conference on Artificial Intelligence (AAAI), 2020 (<strong>Spotlight</strong>)</em>
+        <br />
+        <a href="https://arxiv.org/abs/1906.05746"><b>arxiv</b></a>/<a href="https://github.com/nkargas/Canonical-System-Identification"><b>code</b></a>/<a href="Files/CSID.pdf"><b>slides</b></a>
+        <br />
+        We show that identifying a general nonlinear function from input-output examples can be formulated as a tensor completion problem and under certain conditions provably correct nonlinear system identification is possible. We extend our method to the multi-output setting and the case of partially observed data.
+      </div>
+
+      <div id= 'publication'>
+        <img src="Pics/tci2019.png" alt="tci2019" width=190 height="auto">
+        <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7087548/"><b>Low-Rank Tensor Models for Improved Multi-Dimensional MRI: Application to Dynamic Cardiac T1 Mapping</b></a>
+        <br />
+        B. Yaman, S. Weingartner, <strong>N. Kargas</strong>, N. D. Sidiropoulos and M. Akcakaya
+        <br />
+        <em>IEEE Transactions on Computational Imaging, 2019.</em>
+        <br />
+        <br />
+        We explore different tensor decomposition methods in order to enable high-resolution cardiac phase-resolved myocardial T1 mapping.
+      </div>
+
+      <div id= 'publication'>
+        <img src="Pics/dsw2019.png" alt="dsw2019" width=190 height="auto">
+        <a href="https://ieeexplore.ieee.org/document/8755580"><b>Statistical Learning Using Hierarchical Modeling of Probability Tensors</b></a>
+        <br />
+        M. Amiridi, <strong>N. Kargas</strong> and N. D. Sidiropoulos
+        <br />
+        <em>IEEE Data Science Workshop (DSW), 2019. (<strong>Best student paper award</strong>)</em>
+        <br />
+        <a href="Files/DSW.pdf"><b>slides</b></a>
+        <br />
+        We address the complexity of accurately estimating high-dimensional joint distributions by proposing a novel hierarchical learning algorithm for probability mass function (PMF) estimation through parallel local views of a probability tensor.
+      </div>
+
+      <div id= 'publication'>
+        <img src="Pics/neurips2019.png" alt="neurips2019" width=190 height="auto">
+        <a href="https://papers.nips.cc/paper/8999-crowdsourcing-via-pairwise-co-occurrences-identifiability-and-algorithms.pdf"><b>Crowdsourcing via Pairwise Co-occurrences: Identifiability and Algorithms</b></a>
+        <br />
+        S. Ibrahim, X. Fu, <strong>N. Kargas</strong> and K. Huang
+        <br />
+        <em>Advances in Neural Information Processing Systems (NeurIPS), 2019.</em>
+        <br />
+        <a href="https://arxiv.org/abs/1909.12325"><b>arxiv</b></a>/<a href="http://people.oregonstate.edu/~ibrahish/Code.zip"><b>code</b></a>
+        <br />
+         We propose a framework using pairwise co-occurrences of the annotator responses and show that our approach can identify the Dawid-Skene model under realistic conditions. We develop two algorithms to solve the model identification problem.
+      </div>
+
+      <div id= 'publication'>
+        <img src="Pics/aistats2019.png" alt="aistats2019" width=190 height="auto">
+        <a href="http://proceedings.mlr.press/v89/kargas19a/kargas19a.pdf"><b>Learning Mixtures of Smooth Product Distributions: Identifiability and Algorithm</b></a>
+        <br />
+        <strong>N. Kargas</strong> and N. D. Sidiropoulos
+        <br />
+        <em>International Conference on Artificial Intelligence and Statistics (AISTATS), 2019.</em>
+        <br />
+        <a href="https://arxiv.org/abs/1904.01156"><b>arxiv</b></a>
+        <br />
+        We study the problem of learning a mixture model of non-parametric product distributions and propose a two-stage approach which recovers the component distributions of the mixture.
+      </div>
+
+      <div id= 'publication'>
+        <img src="Pics/tsp2018.png" alt="tsp2018" width=190 height="auto">
+        <a href="https://ieeexplore.ieee.org/document/8424892"><b>Tensors, Learning, and `Kolmogorov Extension' for Finite-alphabet Random Vectors</b></a>
+        <br />
+        <strong>N. Kargas</strong>, N. D. Sidiropoulos and X. Fu
+        <br />
+        <em>IEEE Transactions on Signal Processing, 2018.</em>
+        <br />
+        <a href="https://arxiv.org/pdf/1712.00205.pdf"><b>arxiv</b></a>/<a href="Files/TSP.pdf"><b>slides</b></a>
+        <br />
+        We prove that high-dimensional PMF recovery from low-dimensional marginalized PMFs can be guaranteed under certain low-rank conditions. We derive identifiability results and an algorithm to carry out the recovery task.
+      </div>
+
+      <div id= 'publication'>
+        <img src="Pics/camsap2017.png" alt="camsap2017" width=190 height="auto">
+        <a href="https://ieeexplore.ieee.org/document/8313075"><b>Locally Low-Rank tensor regularization for high-resolution quantitative dynamic MRI</b></a>
+        <br />
+        B. Yaman, S. Weingartner, <strong> N. Kargas</strong>, N. D. Sidiropoulos and M. Akcakaya
+        <br />
+        <em>IEEE 7th International Workshop on Computational Advances in Multi-Sensor Adaptive Processing (CAMSAP), 2017.</em>
+        <br />
+        <br />
+        We propose a locally low-rank tensor regularization approach for high-resolution quantitative dynamic MRI.
+      </div>
+
+      <div id= 'publication'>
+        <img src="Pics/spars2017.png" alt="spars2017" width=190 height="auto">
+        <a href="http://spars2017.lx.it.pt/index_files/papers/SPARS2017_Paper_110.pdf"><b>Low-Rank Tensor Regularization for Improved Dynamic Quantitative Magnetic Resonance Imaging</b></a>
+        <br />
+        <strong> N. Kargas</strong>, S. Weingartner, N. D. Sidiropoulos and M. Akcakaya
+        <br />
+        <em>Signal Processing with Adaptive Sparse Structured Representations Workshop (SPARS), 2017.</em>
+        <br />
+        <br />
+        We propose a method based on low-rank tensor regularization for improved undersampled dynamic quantitative MRI reconstruction.
+      </div>
+
+      <div id= 'publication'>
+        <img src="Pics/ita2017.png" alt="ita2017" width=190 height="auto">
+        <a href="https://ieeexplore.ieee.org/document/8023474"><b>Completing a Joint PMF from Projections: a Low-rank Coupled Tensor Factorization Approach</b></a>
+        <br />
+        <strong> N. Kargas</strong> and N. D. Sidiropoulos
+        <br />
+        <em>Information Theory and Applications Workshop (ITA), 2017.</em>
+        <br />
+        <a href="https://arxiv.org/pdf/1702.05184.pdf"><b>arxiv</b></a>
+        <br />
+        We show that it is possible to recover higher-dimensional joint PMFs from lower-dimensional marginalized PMFs under certain low-rank conditions and propose a nonnegative coupled low-rank tensor factorization algorithm.
+      </div>
+	        
+	   <h2><strong>Past Projects</strong></h2>
+      <div id= 'publication'>
+        <img src="Pics/wcl2015.png" alt="wcl2015" width=190 height="auto">
+        <a href="https://ieeexplore.ieee.org/document/7236869"><b>Fully-Coherent Reader with Commodity SDR for Gen2 FM0 and Computational RFID</b></a>
+        <br />
+        <strong> N. Kargas</strong>, F. Mavromatis and A. Bletsas
+        <br />
+        <em>IEEE Wireless Communications Letters, 2015.</em>
+        <br />
+        <a href="https://github.com/nkargas/Gen2-UHF-RFID-Reader"><b>code</b></a>
+        <br />
+        This work offers a complete SDR reader with coherent detection, exploitation of FM0 line coding memory in Gen2 tags, careful handling of symbol synchronization and implementation and testing of Gen2 in a commodity SDR, utilizing a single transceiver card.
+      </div>
+
+      <div id= 'publication'>
+        <img src="Pics/rfidta2014.png" alt="rfidta2014" width=190 height="auto">
+        <a href="https://ieeexplore.ieee.org/document/6934197"><b>Channel Coding for Increased Range Bistatic Backscatter Radio: Experimental Results</b></a>
+        <br />
+        P. N. Alevizos, N. Fasarakis-Hilliard, K. Tountas, N. Agadakos, <strong> N. Kargas</strong> and A. Bletsas
+        <br />
+        <em>IEEE RFID Technology and Applications Conference (RFID-TA), 2014.</em>
+        <br />
+        <br />
+        This work offers concrete, low-complexity channel coding for the bistatic scatter radio channel. The theoretical design is experimentally validated with a commodity software-defined radio (SDR) reader.
+      </div>
     </div>
   </div>
 </body>
-
 </html>
