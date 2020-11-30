@@ -33,6 +33,16 @@ color: #224b8d;
 text-decoration: none;
 }
 
+#links a{
+color: #224b8d;
+text-decoration: none;
+}
+
+a:hover {
+  color: #ff8c00;
+}
+
+
 
 
 div#toptitle {
@@ -113,6 +123,7 @@ margin-top:10px;
 
 #publication{
 margin-left: 20px;
+margin-bottom: 20px;
 height: 180px;
 }
 
@@ -120,7 +131,7 @@ height: 180px;
 img {
 border: none;
 float:left;
-margin-right: 20px;
+margin-right: 40px;
 }
 
 #info{
