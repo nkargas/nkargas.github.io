@@ -5,8 +5,16 @@
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="./Fonts/fa/css/all.css">
   <link rel="stylesheet" href="./Fonts/ac/css/academicons.css">
+  <script type="text/javascript">
+      function show_bib(pubid){
+          var bibStatus = document.getElementById(pubid).style.display;
+          if (bibStatus === 'block') document.getElementById(pubid).style.display = 'none';
+          else document.getElementById(pubid).style.display = 'block';
+      }
+  </script>
   <title>Nikos Kargas</title>
 </head>
+
 
 <body>
   <div id="tlayout">
@@ -79,7 +87,7 @@
       <div class='publication'>
         <a href="https://www.ijcai.org/proceedings/2021/0400.pdf"><b>Multi-version Tensor Completion for Time-delayed Spatio-temporal Data</b></a>
         <br />
-        C. Qian, <strong>N. Kargas</strong>, C. Xiao, L. Glass, N. D. Sidiropoulos, J. Sun
+        C. Qian, <strong>N. Kargas</strong>, C. Xiao, L. M. Glass, N. D. Sidiropoulos, J. Sun
         <br />
         <em>International Joint Conference on Artificial Intelligence (IJCAI), 2021</em>
         <br />
@@ -87,25 +95,44 @@
         <br />
         <a href="https://arxiv.org/abs/2105.05326"><b>[arxiv]</b></a>
         <a href="index.html"><b>[slides]</b></a>
-        <a href="index.html"><b>[poster]</b></a>
-        <a href="./Files/bib/IJCAI_2021.bib"><b>[bib]</b></a>
+        <a href="./Files/posters/IJCAI_2021.pdf"><b>[poster]</b></a>
+        <a href="javascript:show_bib('QianKar2021')"><b>[bib]</b></a>
+        <div class="bib-text" id="QianKar2021">
+          @inproceedings{QianKar2021,
+              title = {Multi-version Tensor Completion for Time-delayed Spatio-temporal Data},
+              author = {Qian, Cheng and Kargas, Nikos and Xiao, Cao and Glass, Lucas M. and Sidiropoulos, Nicholas D. and Sun, Jimeng},
+              booktitle = {Proceedings of the Thirtieth International Joint Conference on Artificial Intelligence, {IJCAI-21}},
+              pages = {2906--2912},
+              year = {2021}
+          }
+        </div>
       </div>
 
       <div class='publication'>
         <a href="https://ojs.aaai.org/index.php/AAAI/article/view/16615"><b>STELAR: Spatio-temporal Tensor Factorization with Latent Epidemiological Regularization</b></a>
         <br />
-        <strong>N. Kargas</strong>, C. Qian, N. D. Sidiropoulos, C. Xiao, L. Glass and J. Sun
+        <strong>N. Kargas</strong>, C. Qian, N. D. Sidiropoulos, C. Xiao, L. M. Glass and J. Sun
         <br />
         <em>AAAI Conference on Artificial Intelligence (AAAI), 2021</em>
         <br />
         (acceptance rate = <strong>21%</strong>).
         <br />
+        <a href="https://www.youtube.com/watch?v=NmAB4jljlxE"><b>Presentation</b></a> (Presented by Professor Jimeng Sun)
+        <br />
         <a href="https://arxiv.org/abs/2012.04747"><b>[arxiv]</b></a>
         <a href="./Files/presentations/AAAI_2021.pdf"><b>[slides]</b></a>
         <a href="./Files/posters/AAAI_2021.pdf"><b>[poster]</b></a>
-        <a href="index.html"><b>[video]</b></a>
         <a href="https://github.com/nkargas/STELAR"><b>[code]</b></a>
-        <a href="./Files/bib/AAAI_2021.bib"><b>[bib]</b></a>
+        <a href="javascript:show_bib('KarQian2021')"><b>[bib]</b></a>
+        <div class="bib-text" id="KarQian2021">
+          @inproceedings{KarQian2021,
+              title = {{STELAR}: Spatio-temporal Tensor Factorization with Latent Epidemiological Regularization},
+              booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence},
+              author = {Kargas, Nikos and Qian, Cheng and Sidiropoulos, Nicholas D. and Xiao, Cao and Glass, Lucas M. and Sun, Jimeng},
+              year = {2021},
+              pages = {4830-4837}
+          }
+        </div>
       </div>
 
       <div class='publication'>
@@ -115,9 +142,19 @@
         <br />
         <em>IEEE Transactions on Signal Processing, 2021</em>
         <br />
-        <a href="index.html"><b>[slides]</b></a>
-        <a href="index.html"><b>[video]</b></a>
-        <a href="./Files/bib/TSP_2021.bib"><b>[bib]</b></a>
+        <a href="https://www.youtube.com/watch?v=epRT4izaWjk"><b>Presentation</b></a> (Presented by Professor N. D. Sidiropoulos)
+        <br />
+        <a href="javascript:show_bib('karSid2021')"><b>[bib]</b></a>
+        <div class="bib-text" id="karSid2021">
+          @article{karSid2021,
+              title = {Supervised learning and canonical decomposition of multivariate functions},
+              author = {Kargas, Nikos and Sidiropoulos, Nicholas D},
+              journal = {IEEE Transactions on Signal Processing},
+              volume = {69},
+              pages = {1097-1107},
+              year = {2021}
+          }
+        </div>
       </div>
 
       <h3><strong>2020</strong></h3>

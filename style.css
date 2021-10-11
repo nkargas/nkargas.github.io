@@ -13,6 +13,11 @@ li {
   margin-bottom: 10px;
 }
 
+.bib-text{
+  white-space:pre;
+  display: none;
+}
+
 #tlayout {
 width: 1024px;
 min-height: 200px;
